@@ -1,10 +1,10 @@
 package crawler
 
 import (
-	"dataflow/logger"
-	"dataflow/models"
-	"dataflow/services/nodeService"
-	"dataflow/services/utilityService"
+	logger "variable-dataflow-tracer/logger"
+	models "variable-dataflow-tracer/models"
+	"variable-dataflow-tracer/services/nodeService"
+	"variable-dataflow-tracer/services/utilityService"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )

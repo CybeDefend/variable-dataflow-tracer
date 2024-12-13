@@ -3,10 +3,10 @@
 package nodeService
 
 import (
-	"dataflow/logger"
-	"dataflow/models"
-	"dataflow/services/utilityService"
 	"strings"
+	logger "variable-dataflow-tracer/logger"
+	models "variable-dataflow-tracer/models"
+	"variable-dataflow-tracer/services/utilityService"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )

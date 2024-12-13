@@ -3,11 +3,11 @@
 package dataFlowService
 
 import (
-	"dataflow/logger"
-	"dataflow/models"
-	"dataflow/services/utilityService"
 	"os"
 	"strings"
+	logger "variable-dataflow-tracer/logger"
+	models "variable-dataflow-tracer/models"
+	"variable-dataflow-tracer/services/utilityService"
 )
 
 // -----------------------------------------------------------------------------
@@ -141,8 +141,8 @@ func RemoveDuplicateDataFlowStep(elements []models.DataFlowStep, startLine uint3
 		newStep := models.DataFlowStep{
 			Line:     startLine,
 			Type:     "Use of variable",
-			Method:   "", // No method
-			Function: "", // No function
+			Method:   "",
+			Function: "",
 			Value:    variable,
 			Variable: variable,
 		}

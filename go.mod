@@ -1,4 +1,4 @@
-module dataflow
+module variable-dataflow-tracer
 
 go 1.21.10
 

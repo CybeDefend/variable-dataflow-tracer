@@ -2,9 +2,7 @@ import os
 
 # Fonction DataFlowTest
 def DataFlowTest(filePath, test):
-    filePath = "example backward"
-    newPath = filePath
-    newPath = functionTest()
+    newPath = "example backward"
 
     # Vérifie si le fichier existe
     if not os.path.exists(newPath):
@@ -16,8 +14,10 @@ def DataFlowTest(filePath, test):
                 return file.read()
         except:
             return "Error reading file"
+        
+    filePathModified = "1" + newPath
 
-    newPath = "test"
+    filePathModified = "test"
     
     return result
 

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"dataflow/core"
-	"dataflow/logger"
-	"dataflow/models"
 	"flag"
 	"fmt"
 	"strings"
 	"time"
+	"variable-dataflow-tracer/core"
+	"variable-dataflow-tracer/logger"
+	"variable-dataflow-tracer/models"
 )
 
 func main() {

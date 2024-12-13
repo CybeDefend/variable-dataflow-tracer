@@ -1,15 +1,15 @@
 package core
 
 import (
-	"dataflow/crawler"
-	"dataflow/logger"
-	"dataflow/models"
-	"dataflow/services/dataFlowService"
-	"dataflow/services/languageService"
-	"dataflow/services/nodeService"
 	"fmt"
 	"log"
 	"os"
+	"variable-dataflow-tracer/crawler"
+	"variable-dataflow-tracer/logger"
+	"variable-dataflow-tracer/models"
+	"variable-dataflow-tracer/services/dataFlowService"
+	"variable-dataflow-tracer/services/languageService"
+	"variable-dataflow-tracer/services/nodeService"
 )
 
 // -----------------------------------------------------------------------------

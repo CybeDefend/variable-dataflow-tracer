@@ -2,13 +2,13 @@ package main
 
 import (
 	"bufio"
-	"dataflow/core"
-	"dataflow/models"
 	"fmt"
 	"os"
 	"os/exec"
 	"runtime"
 	"strings"
+	core "variable-dataflow-tracer/core"
+	models "variable-dataflow-tracer/models"
 
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

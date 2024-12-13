@@ -1,8 +1,8 @@
 package models
 
 import (
-	"dataflow/logger"
 	"fmt"
+	logger "variable-dataflow-tracer/logger"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )
