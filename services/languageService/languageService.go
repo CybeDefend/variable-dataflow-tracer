@@ -3,7 +3,7 @@
 package languageService
 
 import (
-	logger "variable-dataflow-tracer/logger"
+	logger "github.com/CybeDefend/variable-dataflow-tracer/logger"
 
 	sitter "github.com/smacker/go-tree-sitter"
 	"github.com/smacker/go-tree-sitter/c"

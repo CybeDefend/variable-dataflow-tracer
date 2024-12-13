@@ -1,4 +1,4 @@
-module variable-dataflow-tracer
+module github.com/CybeDefend/variable-dataflow-tracer
 
 go 1.21.10
 

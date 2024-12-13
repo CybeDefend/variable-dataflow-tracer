@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"variable-dataflow-tracer/crawler"
-	"variable-dataflow-tracer/logger"
-	"variable-dataflow-tracer/models"
-	"variable-dataflow-tracer/services/dataFlowService"
-	"variable-dataflow-tracer/services/languageService"
-	"variable-dataflow-tracer/services/nodeService"
+
+	"github.com/CybeDefend/variable-dataflow-tracer/crawler"
+	"github.com/CybeDefend/variable-dataflow-tracer/logger"
+	"github.com/CybeDefend/variable-dataflow-tracer/models"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/dataFlowService"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/languageService"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/nodeService"
 )
 
 // -----------------------------------------------------------------------------

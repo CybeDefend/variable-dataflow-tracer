@@ -2,7 +2,8 @@ package models
 
 import (
 	"fmt"
-	logger "variable-dataflow-tracer/logger"
+
+	logger "github.com/CybeDefend/variable-dataflow-tracer/logger"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )

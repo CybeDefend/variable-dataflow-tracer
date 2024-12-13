@@ -1,10 +1,10 @@
 package crawler
 
 import (
-	logger "variable-dataflow-tracer/logger"
-	models "variable-dataflow-tracer/models"
-	"variable-dataflow-tracer/services/nodeService"
-	"variable-dataflow-tracer/services/utilityService"
+	logger "github.com/CybeDefend/variable-dataflow-tracer/logger"
+	models "github.com/CybeDefend/variable-dataflow-tracer/models"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/nodeService"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/utilityService"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )

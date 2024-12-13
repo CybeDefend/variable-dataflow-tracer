@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"strings"
 	"time"
-	"variable-dataflow-tracer/core"
-	"variable-dataflow-tracer/logger"
-	"variable-dataflow-tracer/models"
+
+	"github.com/CybeDefend/variable-dataflow-tracer/core"
+	"github.com/CybeDefend/variable-dataflow-tracer/logger"
+	"github.com/CybeDefend/variable-dataflow-tracer/models"
 )
 
 func main() {

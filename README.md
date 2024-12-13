@@ -146,8 +146,8 @@ To use **Variable Dataflow Tracer** in your Go project:
 
    ```go
    import (
-       "github.com/your-username/variable-dataflow-tracer/core"
-       "github.com/your-username/variable-dataflow-tracer/models"
+       "github.com/your-username/github.com/CybeDefend/variable-dataflow-tracer/core"
+       "github.com/your-username/github.com/CybeDefend/variable-dataflow-tracer/models"
    )
    ```
 
@@ -158,8 +158,8 @@ To use **Variable Dataflow Tracer** in your Go project:
 
    import (
        "fmt"
-       "github.com/your-username/variable-dataflow-tracer/core"
-       "github.com/your-username/variable-dataflow-tracer/models"
+       "github.com/your-username/github.com/CybeDefend/variable-dataflow-tracer/core"
+       "github.com/your-username/github.com/CybeDefend/variable-dataflow-tracer/models"
    )
 
    func main() {

@@ -5,9 +5,10 @@ package dataFlowService
 import (
 	"os"
 	"strings"
-	logger "variable-dataflow-tracer/logger"
-	models "variable-dataflow-tracer/models"
-	"variable-dataflow-tracer/services/utilityService"
+
+	logger "github.com/CybeDefend/variable-dataflow-tracer/logger"
+	models "github.com/CybeDefend/variable-dataflow-tracer/models"
+	"github.com/CybeDefend/variable-dataflow-tracer/services/utilityService"
 )
 
 // -----------------------------------------------------------------------------

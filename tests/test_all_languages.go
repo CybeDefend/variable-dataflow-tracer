@@ -7,8 +7,9 @@ import (
 	"os/exec"
 	"runtime"
 	"strings"
-	core "variable-dataflow-tracer/core"
-	models "variable-dataflow-tracer/models"
+
+	core "github.com/CybeDefend/variable-dataflow-tracer/core"
+	models "github.com/CybeDefend/variable-dataflow-tracer/models"
 
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

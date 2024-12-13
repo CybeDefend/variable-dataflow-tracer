@@ -86,7 +86,7 @@ We welcome suggestions for new features or improvements. When suggesting enhance
 
 ## Communication
 
-- **Issues**: Use [GitHub Issues](https://github.com/your-username/variable-dataflow-tracer/issues) for bug reports and feature requests.
+- **Issues**: Use [GitHub Issues](https://github.com/your-username/github.com/CybeDefend/variable-dataflow-tracer/issues) for bug reports and feature requests.
 - **Email**: You can contact us at [contact@cybedefend.com](mailto:contact@cybedefend.com) for other inquiries.
 
 ## Contributor License Agreement
