@@ -12,7 +12,7 @@ var (
 	GlobalLanguage string
 )
 
-// DataFlowStep représente une étape dans le flux de données d'une variable.
+// DataFlowStep repesent a step in the data flow of a variable
 type DataFlowStep struct {
 	Line     uint32
 	Type     string
@@ -106,17 +106,17 @@ func PrintDataFlow(dataFlow []DataFlowStep) {
 		return
 	}
 
-	fmt.Printf("Flux de données pour la variable '%s':\n", dataFlow[0].Variable)
+	fmt.Printf("Data flow for the variable'%s':\n", dataFlow[0].Variable)
 	fmt.Println("----------------------------------------")
 	for i, step := range dataFlow {
-		fmt.Printf("Étape %d:\n", i+1)
-		fmt.Printf(" Ligne: %d\n", step.Line)
+		fmt.Printf("Step %d:\n", i+1)
+		fmt.Printf(" Line: %d\n", step.Line)
 		fmt.Printf(" Type: %s\n", step.Type)
 		if step.Method != "" {
-			fmt.Printf(" Méthode: %s\n", step.Method)
+			fmt.Printf(" Method: %s\n", step.Method)
 		}
-		fmt.Printf(" Fonction: %s\n", step.Function)
-		fmt.Printf(" Valeur: %s\n", step.Value)
+		fmt.Printf(" Function: %s\n", step.Function)
+		fmt.Printf(" Value: %s\n", step.Value)
 		fmt.Printf(" Variable: %s\n", step.Variable)
 		fmt.Println()
 	}
